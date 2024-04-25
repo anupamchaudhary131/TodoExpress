@@ -23,3 +23,13 @@
 # 7) Access the application in your browser at 
 
     https://todoexpress-p1pj.onrender.com/
+
+# Notes
+
+    You may need to adjust the environment variables, configuration files, or ports depending on your specific setup.
+    Make sure to replace <repository-url> with the actual URL of your repository.
+    Ensure your MongoDB instance is properly configured and accessible.
+
+# Contributors
+
+    Anupam Chaudhary
