@@ -2,8 +2,7 @@ import express from 'express';
 import todoRouter from './routes/todo.js';
 import mongoose from 'mongoose';
 import cors from 'cors';
-
-await mongoose.connect('mongodb://localhost:27017/Todo');
+await mongoose.connect(process.env.MONGODB_URI);
 
 const  app = express();
 app.use(cors());
