@@ -3,6 +3,12 @@ import Todo from "../models/todo.models.js";
 
 
 const router = Router();
+
+router.get("/", async (req, res) => {
+  res.sendFile("dist/index.html", {root: "."});
+  }
+)
+
 router.get('/todos', async (req, res) => {
   const todos = await Todo.find({completed: false});
   const completedTodos = await Todo.find({completed: true});

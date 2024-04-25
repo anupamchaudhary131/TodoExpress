@@ -1,7 +1,3 @@
-
-// var express = require('express');
-// var router = require('./routes/index');
-
 import express from 'express';
 import todoRouter from './routes/todo.js';
 import mongoose from 'mongoose';
@@ -13,10 +9,10 @@ const  app = express();
 app.use(cors());
 const port = 3000;
 
-app.set('view engine', 'ejs');
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use("/static", express.static('public'));
+app.use(express.static('dist'));
 
 
 
