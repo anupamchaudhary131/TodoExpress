@@ -8,7 +8,7 @@
 
 # 3) Install dependencies for backend:
 
-    cd frontend
+    cd backend
    
     npm install
 
