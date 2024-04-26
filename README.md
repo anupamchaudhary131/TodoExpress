@@ -18,7 +18,7 @@
 
 # 6) Start the backend server:
 
-    npm start
+    npm run dev
 
 # 7) Access the application in your browser at 
 
